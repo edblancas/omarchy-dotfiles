@@ -4,6 +4,8 @@ The next are my dotfiles for Omarchy for a MacBook PRO Intel i9.
 
 ## Fix Visual Code
 
+> NOTE: First check if the command `code` without disabling gpu works, if not then add the `--disable-gpu`.
+
 Add `--disable-gpu` to the `code.desktop` file in `~/.local/share/applications/`.
 
 ```
