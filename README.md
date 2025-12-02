@@ -46,3 +46,5 @@ Add the next entry at the end to the file `~/.config/hypr/hyprland.conf`
 ```
 source = ~/.config/me-hypr/hyprland.conf
 ```
+
+[Remove Windows Gaps](https://learn.omacom.io/2/the-omarchy-manual/102/common-tweaks#remove-window-gaps)
