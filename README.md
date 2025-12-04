@@ -48,3 +48,30 @@ source = ~/.config/me-hypr/hyprland.conf
 ```
 
 [Remove Windows Gaps](https://learn.omacom.io/2/the-omarchy-manual/102/common-tweaks#remove-window-gaps)
+
+## Clojure
+
+Omarchy offers install clojure trhough alt+super+space development menu.
+
+But i installed with:
+
+```
+brew install clojure/tools/clojure
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+So I unsinstalled brew and clojure
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+# and delete the line in .bashrc
+```
+
+## Cursor
+
+Installed via omarchy
+
+`cp /usr/share/applications/cursor.desktop ~/.local/share/applications/`
+
+Add the --disable-gpu
